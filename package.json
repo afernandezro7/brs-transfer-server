@@ -1,0 +1,28 @@
+{
+  "name": "brstransfer",
+  "version": "1.0.0",
+  "description": "Plataforma de envío de archivos de belraysa",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "keywords": [
+    "node",
+    "reactjs",
+    "nextjs"
+  ],
+  "author": "Alberto Fernandez Romera",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "multer": "^1.4.2",
+    "shortid": "^2.2.16"
+  }
+}
